@@ -1,0 +1,19 @@
+### listar
+GET http://localhost:5273/api/chamado/listar
+
+### cadastrar
+POST http://localhost:5273/api/chamado/cadastrar
+Content-Type: application/json
+
+{
+    "descricao": "Mouse quebrado"
+}
+
+### alterar statis
+PATCH http://localhost:5273/api/chamado/alterar/COLE_O_ID_AQUI
+
+### listar Não Resolvidos
+GET http://localhost:5273/api/chamado/naoresolvidos
+
+### Listar Resolvidos
+GET http://localhost:5273/api/chamado/resolvidos
